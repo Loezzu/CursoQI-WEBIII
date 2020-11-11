@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+*{
+	font-family:verdana;
+}	
+
+body{
+	background-image:url(../img/fundo.jpg);
+	background-attachment:fixed;
+}
+
+/*Alterando o container geral:*/
+.geral{
+	width:960px; /*largura*/
+	background-color:#fff; /*cor do fundo para branco*/
+	margin:0 auto; /*centraliza o elemento*/
+	border:4px solid gray;
+	box-shadow:2px 2px 2px 2px gray;
+}
+
+/*alterando o topo:*/	
+.topo{
+	height:300px;
+	background-image:url(../img/header.jpg);
+}
+/*Alterando o conteúdo:*/
+.conteudo{
+	margin:0;
+	width:auto;
+}
+/*alterando as colunas:*/
+.colunas{
+	-moz-column-count:3;
+	-moz-column-gap:10px;
+	-moz-column-rule:#c0c0c0 solid 1px;
+	-webkit-column-count:3;
+	-webkit-column-gap:10px;
+	-webkit-column-rule:#c0c0c0 solid 1px;
+	padding:10px;
+	
+}
+.colunas p{
+	text-align:justify;
+	text-indent:20px;
+	line-height:1.5;
+}
+h1{
+	text-align:center;
+	text-shadow:2px 2px 2px black;
+	color:navy;
+}	
+
+.rodape{
+	background-color:#000080;
+	color:#fff;
+	height:40px;
+	text-align:center;
+	line-height:40px;
+}
+
+/*Navegação: */
+.cssmenu{
+	width:auto;
+	margin:0;
+	padding:0;
+	height:45px;
+	background:#000080;
+}
+
+.cssmenu ul{ /*alterando a lista de dentro do menu */
+	margin:0;
+	padding:0;
+	list-style:none;
+	line-height:1;
+	text-align:center;
+}
+
+.cssmenu ul li {
+	display: inline-block; /*alinha uma palavra ao lado da outra*/
+	padding: 0;
+	margin: 0;
+
+}
+
+.cssmenu ul li a { /*alterando o link de cada menu */
+	display: block; /*visualização em bloco - botão*/
+	color: #ffffff; /*cor da fonte - branco*/
+	text-decoration: none; /*retirar sublinhado do link*/
+	padding: 15px 25px; /*margem interna*/
+	font-weight: bold; /*negrito*/
+	text-transform: uppercase; /*tudo em maiúsculo*/
+	font-size: 14px; /*tamanho fonte*/
+}
+.cssmenu ul li a:hover {
+	color: silver;
+	background-color: #191970;
+
+}	
+
+	
+
+
+
+
+
